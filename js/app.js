@@ -15,8 +15,8 @@ function adicionar() {
         } else {
             listaAmigos.textContent = listaAmigos.textContent + ', ' + nomeAmigo.value;
         }
+        nomeAmigo.value = '';
     }
-    nomeAmigo.value = '';
 }
 
 function sortear() {
